@@ -42,7 +42,7 @@ while True:
      sock.sendto(bytes, (ip,port))
      sent = sent + 1
      port = port + 1
-     print "DC6 Sent %s packet @bot to %s throught port:%s [CONNECTED]"%(sent,ip,port)
+     print "DC6 Send %s packet @bot to %s throught port:%s [CONNECTED]"%(sent,ip,port)
      if port == 65534:
        port = 1
 
